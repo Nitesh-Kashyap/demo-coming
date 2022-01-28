@@ -1,0 +1,272 @@
+Started GET "/" for ::1 at 2022-01-28 11:52:00 +0530
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nitesh/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nitesh/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.0ms | Allocations: 812)
+Completed 200 OK in 49ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 7628)
+
+
+Started GET "/homes/index" for ::1 at 2022-01-28 11:52:13 +0530
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 582.8ms | Allocations: 92047)
+Completed 200 OK in 586ms (Views: 585.2ms | ActiveRecord: 0.0ms | Allocations: 93353)
+
+
+Started GET "/" for ::1 at 2022-01-28 11:52:51 +0530
+  
+NoMethodError (undefined method `root_to' for #<ActionDispatch::Routing::Mapper:0x00007fef605b78e8 @set=#<ActionDispatch::Routing::RouteSet:0x0000000003f86fd0>, @draw_paths=[#<Pathname:/home/nitesh/puto/demo_coming/config/routes>], @scope=#<ActionDispatch::Routing::Mapper::Scope:0x00007fef605b7870 @hash={:path_names=>{:new=>"new", :edit=>"edit"}}, @parent=#<ActionDispatch::Routing::Mapper::Scope:0x0000000004413850 @hash=nil, @parent=nil, @scope_level=nil>, @scope_level=nil>, @concerns={}>
+Did you mean?  root):
+  
+config/routes.rb:4:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-01-28 12:05:53 +0530
+  
+NoMethodError (undefined method `root_to' for #<ActionDispatch::Routing::Mapper:0x00007fef7880ba78 @set=#<ActionDispatch::Routing::RouteSet:0x0000000003f86fd0>, @draw_paths=[#<Pathname:/home/nitesh/puto/demo_coming/config/routes>], @scope=#<ActionDispatch::Routing::Mapper::Scope:0x00007fef7880ba28 @hash={:path_names=>{:new=>"new", :edit=>"edit"}}, @parent=#<ActionDispatch::Routing::Mapper::Scope:0x0000000004413850 @hash=nil, @parent=nil, @scope_level=nil>, @scope_level=nil>, @concerns={}>
+Did you mean?  root):
+  
+config/routes.rb:4:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-01-28 12:05:57 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2022-01-28 12:06:51 +0530
+  
+NoMethodError (undefined method `root_to' for #<ActionDispatch::Routing::Mapper:0x00007fef78d28c18 @set=#<ActionDispatch::Routing::RouteSet:0x0000000003f86fd0>, @draw_paths=[#<Pathname:/home/nitesh/puto/demo_coming/config/routes>], @scope=#<ActionDispatch::Routing::Mapper::Scope:0x00007fef78d28bc8 @hash={:path_names=>{:new=>"new", :edit=>"edit"}}, @parent=#<ActionDispatch::Routing::Mapper::Scope:0x0000000004413850 @hash=nil, @parent=nil, @scope_level=nil>, @scope_level=nil>, @concerns={}>
+Did you mean?  root):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-01-28 12:07:19 +0530
+  
+NoMethodError (undefined method `root_to' for #<ActionDispatch::Routing::Mapper:0x0000000003fbefe8 @set=#<ActionDispatch::Routing::RouteSet:0x0000000003f86fd0>, @draw_paths=[#<Pathname:/home/nitesh/puto/demo_coming/config/routes>], @scope=#<ActionDispatch::Routing::Mapper::Scope:0x0000000003fbeef8 @hash={:path_names=>{:new=>"new", :edit=>"edit"}}, @parent=#<ActionDispatch::Routing::Mapper::Scope:0x0000000004413850 @hash=nil, @parent=nil, @scope_level=nil>, @scope_level=nil>, @concerns={}>
+Did you mean?  root):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-01-28 12:07:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for ::1 at 2022-01-28 12:07:57 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/nitesh/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/nitesh/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.8ms | Allocations: 387)
+Completed 200 OK in 22ms (Views: 20.8ms | Allocations: 1329)
+
+
+Started GET "/homes/" for ::1 at 2022-01-28 12:08:04 +0530
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 13655)
+Completed 200 OK in 57ms (Views: 56.3ms | Allocations: 14546)
+
+
+Started GET "/homes/new" for ::1 at 2022-01-28 12:08:39 +0530
+  
+AbstractController::ActionNotFound (The action 'new' could not be found for HomesController):
+  
+actionpack (7.0.1) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.1) lib/action_dispatch/routing/route_set.rb:850:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (7.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/cookies.rb:693:in `call'
+activerecord (7.0.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (7.0.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.1) lib/puma/configuration.rb:252:in `call'
+puma (5.6.1) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.1) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.1) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.1) lib/puma/server.rb:441:in `process_client'
+puma (5.6.1) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-01-28 12:42:01 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 445)
+  Rendered layout layouts/application.html.erb (Duration: 76.6ms | Allocations: 34237)
+Completed 200 OK in 89ms (Views: 80.7ms | ActiveRecord: 0.0ms | Allocations: 40046)
+
+
+Started GET "/" for ::1 at 2022-01-28 12:42:35 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 445)
+  Rendered layout layouts/application.html.erb (Duration: 77.2ms | Allocations: 34842)
+Completed 200 OK in 92ms (Views: 80.9ms | ActiveRecord: 0.0ms | Allocations: 40650)
+
+
+Started GET "/" for ::1 at 2022-01-28 12:55:52 +0530
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 81.1ms | Allocations: 30742)
+Completed 200 OK in 86ms (Views: 84.3ms | Allocations: 31940)
+
+
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 12:55:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 12:55:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2022-01-28 12:56:33 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 445)
+  Rendered layout layouts/application.html.erb (Duration: 159.4ms | Allocations: 44865)
+Completed 200 OK in 176ms (Views: 165.3ms | ActiveRecord: 0.0ms | Allocations: 50676)
+
+
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 12:56:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 12:56:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2022-01-28 12:58:29 +0530
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3089)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4257)
+
+
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 12:58:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/Nitesh.krjs@gmail.com" for ::1 at 2022-01-28 12:58:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/Nitesh.krjs@gmail.com"):
+  
+Started GET "/" for ::1 at 2022-01-28 12:59:35 +0530
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3089)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 4253)
+
+
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 12:59:35 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2022-01-28 13:00:12 +0530
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2342)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 2694)
+
+
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 13:00:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/" for ::1 at 2022-01-28 13:02:05 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 445)
+  Rendered layout layouts/application.html.erb (Duration: 80.2ms | Allocations: 36754)
+Completed 200 OK in 100ms (Views: 84.3ms | ActiveRecord: 0.0ms | Allocations: 42566)
+
+
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 13:02:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/Nitesh.krjs@gmail.com" for ::1 at 2022-01-28 13:02:20 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/Nitesh.krjs@gmail.com"):
+  
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (120.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (112.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-01-28 09:29:05.982215"], ["updated_at", "2022-01-28 09:29:05.982215"]]
+  [1m[36mTRANSACTION (71.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-01-28 14:59:19 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 445)
+  Rendered layout layouts/application.html.erb (Duration: 85.1ms | Allocations: 36117)
+Completed 200 OK in 103ms (Views: 90.5ms | ActiveRecord: 0.0ms | Allocations: 41930)
+
+
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 14:59:20 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
+Started GET "/js/scripts.js" for ::1 at 2022-01-28 14:59:20 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/js/scripts.js"):
+  
